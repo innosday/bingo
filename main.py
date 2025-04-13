@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+# <<<<<<< Updated upstream
 import pygame
 
 class Bingo:
@@ -91,7 +91,7 @@ while running:
             
     pygame.display.flip()
 
-=======
+# =======
 import pygame
 
 class Bingo:
@@ -168,5 +168,5 @@ while running:
             screen.blit(myFont.render(f"{line(bingo.Id,gird,size) if line(bingo.Id,gird,size) != None else ""}",True,[0,255,255]),[screen.get_width()/2 - 100,screen.get_height()/2-80])
     pygame.display.flip()
 
->>>>>>> Stashed changes
+# >>>>>>> Stashed changes
 pygame.quit()
